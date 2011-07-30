@@ -19,6 +19,7 @@ namespace Asky
 
         private Student student;
         private Professor professor;
+        private Quiz quiz;
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -42,6 +43,19 @@ namespace Asky
                     Application.Exit();
                 }
             }
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog(this) == DialogResult.OK)
+            {
+                quiz = Quiz.ParseFromFile(openFileDialog1.FileName);
+            }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
