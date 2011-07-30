@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD" ModuleId="Asky" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
 </Modules>

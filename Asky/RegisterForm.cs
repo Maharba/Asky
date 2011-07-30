@@ -23,12 +23,12 @@ namespace Asky
 
         public Student GetStudentData()
         {
-            return student ?? new Student();
+            return student;
         }
 
         public Professor GetProfessorData()
         {
-            return professor ?? new Professor();
+            return professor;
         }
 
         private void btnAccept_Click(object sender, EventArgs e)
