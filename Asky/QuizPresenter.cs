@@ -19,16 +19,50 @@ namespace Asky
             this.quiz = quiz;
         }
 
-        public byte NumberQuestion { get; set; }
+        public event EventHandler<Asky.EventArgs<byte, string>> QuestionChanged;
 
-        public void NextQuestion()
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public byte NumberQuestion { get; private set; }
+        
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public string Question { get { return lblQuestion.Text; } }
+
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public List<Answer> Options { get { return quiz.Options; } }
+
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public override string Text
         {
-            ShowQuestion(++NumberQuestion);
+            get
+            {
+                return base.Text;
+            }
+            set
+            {
+                base.Text = value;
+            }
         }
 
+        /// <summary>
+        /// Go to the next question on Questions.
+        /// </summary>
+        public void NextQuestion()
+        {
+            // TODO: CUIDADO!! BUG DETECTADO!! Verificar si el indice es válido en Options. Que devuelva int este método.
+            ShowQuestion(++NumberQuestion);
+            if (QuestionChanged != null)
+                QuestionChanged(this, new EventArgs<byte, string>(NumberQuestion, quiz.Questions[NumberQuestion]));
+        }
+
+        /// <summary>
+        /// Go to the previous question on Questions.
+        /// </summary>
         public void PreviousQuestion()
         {
+            // TODO: CUIDADO!! BUG DETECTADO!! Verificar si el indice es válido en Options. Que devuelva int este método.
             ShowQuestion(--NumberQuestion);
+            if (QuestionChanged != null)
+                QuestionChanged(this, new EventArgs<byte, string>(NumberQuestion, quiz.Questions[NumberQuestion]));
         }
 
         private void ShowQuestion(byte numberQuestion)

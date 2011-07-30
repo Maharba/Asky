@@ -46,14 +46,8 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.tableLayoutMainPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutAnswersPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.lblQuestion = new System.Windows.Forms.Label();
-            this.gbQuestions = new System.Windows.Forms.GroupBox();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
-            this.tableLayoutMainPanel.SuspendLayout();
-            this.gbQuestions.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -196,59 +190,6 @@
             this.openFileDialog1.Filter = "Cuestionario (.qiz)|*.qiz|Examen (.exm)|*.exm";
             this.openFileDialog1.Title = "Abrir";
             // 
-            // tableLayoutMainPanel
-            // 
-            this.tableLayoutMainPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutMainPanel.ColumnCount = 1;
-            this.tableLayoutMainPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutMainPanel.Controls.Add(this.lblQuestion, 0, 0);
-            this.tableLayoutMainPanel.Controls.Add(this.tableLayoutAnswersPanel, 0, 1);
-            this.tableLayoutMainPanel.Location = new System.Drawing.Point(6, 19);
-            this.tableLayoutMainPanel.Name = "tableLayoutMainPanel";
-            this.tableLayoutMainPanel.RowCount = 2;
-            this.tableLayoutMainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutMainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutMainPanel.Size = new System.Drawing.Size(495, 285);
-            this.tableLayoutMainPanel.TabIndex = 0;
-            // 
-            // tableLayoutAnswersPanel
-            // 
-            this.tableLayoutAnswersPanel.ColumnCount = 1;
-            this.tableLayoutAnswersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutAnswersPanel.Location = new System.Drawing.Point(3, 145);
-            this.tableLayoutAnswersPanel.Name = "tableLayoutAnswersPanel";
-            this.tableLayoutAnswersPanel.RowCount = 4;
-            this.tableLayoutAnswersPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutAnswersPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutAnswersPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutAnswersPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutAnswersPanel.Size = new System.Drawing.Size(489, 137);
-            this.tableLayoutAnswersPanel.TabIndex = 1;
-            // 
-            // lblQuestion
-            // 
-            this.lblQuestion.AutoSize = true;
-            this.lblQuestion.Location = new System.Drawing.Point(3, 0);
-            this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(50, 13);
-            this.lblQuestion.TabIndex = 0;
-            this.lblQuestion.Text = "Pregunta";
-            // 
-            // gbQuestions
-            // 
-            this.gbQuestions.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gbQuestions.Controls.Add(this.tableLayoutMainPanel);
-            this.gbQuestions.Location = new System.Drawing.Point(12, 27);
-            this.gbQuestions.Name = "gbQuestions";
-            this.gbQuestions.Size = new System.Drawing.Size(507, 310);
-            this.gbQuestions.TabIndex = 0;
-            this.gbQuestions.TabStop = false;
-            this.gbQuestions.Text = "Pregunta 0";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,7 +199,6 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.statusStrip);
-            this.Controls.Add(this.gbQuestions);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MainForm";
@@ -268,9 +208,6 @@
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
-            this.tableLayoutMainPanel.ResumeLayout(false);
-            this.tableLayoutMainPanel.PerformLayout();
-            this.gbQuestions.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,10 +232,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutMainPanel;
-        private System.Windows.Forms.Label lblQuestion;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutAnswersPanel;
-        private System.Windows.Forms.GroupBox gbQuestions;
     }
 }
 
