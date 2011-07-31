@@ -23,8 +23,39 @@ namespace Asky
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            this.Hide();
+            // this.Hide();
 
+            quizPresenter1.Questions = new List<Question>()
+                                           {
+                                               new Question()
+                                                   {
+                                                       Answer = 1, Content = "sdfsdf", Options = new List<Answer>()
+                                                                                                     {
+                                                                                                         new Answer()
+                                                                                                             {
+                                                                                                                 Content = "sdfdfgdfg"
+                                                                                                             },
+                                                                                                             new Answer()
+                                                                                                                 {
+                                                                                                                     Content = "sdfghh"
+                                                                                                                 }
+                                                                                                     }, Type = TypeQuestion.Single
+                                                   },
+                                                   new Question()
+                                                   {
+                                                       Answer = 1, Content = "fgdfg", Options = new List<Answer>()
+                                                                                                     {
+                                                                                                         new Answer()
+                                                                                                             {
+                                                                                                                 Content = "aaaa"
+                                                                                                             },
+                                                                                                             new Answer()
+                                                                                                                 {
+                                                                                                                     Content = "qqqqq"
+                                                                                                                 }
+                                                                                                     }, Type = TypeQuestion.Multiple
+                                                   }
+                                           };
             using (RegisterForm rf = new RegisterForm())
             {
                 if (rf.ShowDialog(this) == DialogResult.OK)
@@ -56,6 +87,11 @@ namespace Asky
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            quizPresenter1.NextQuestion();
         }
     }
 }

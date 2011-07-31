@@ -8,13 +8,13 @@ using System.Text;
 
 namespace Asky
 {
-    internal enum TypeAnswer
+    public enum TypeQuestion
     {
         Single,
         Multiple
     }
 
-    internal enum TypeQuiz
+    public enum TypeQuiz
     {
         Questionnaire,
         Exam
@@ -23,7 +23,14 @@ namespace Asky
     public class Answer
     {
         public string Content { get; set; }
-        public TypeAnswer Type { get; set; }
+    }
+
+    public class Question
+    {
+        public string Content { get; set; }
+        public List<Answer> Options { get; set; }
+        public int Answer { get; set; }
+        public TypeQuestion Type { get; set; }
     }
 
     public class Quiz
@@ -56,17 +63,7 @@ namespace Asky
         /// <summary>
         /// The question itself.
         /// </summary>
-        public StringCollection Questions { get; set; }
-        
-        /// <summary>
-        /// The correct answer.
-        /// </summary>
-        public int Answer { get; set; }
-
-        /// <summary>
-        /// The available options.
-        /// </summary>
-        public List<Answer> Options { get; set; }
+        public List<Question> Questions { get; set; }
 
         /// <summary>
         /// It parses a .qst file (Questionnaire) or a .exm file (Exam) into a valid Quiz.

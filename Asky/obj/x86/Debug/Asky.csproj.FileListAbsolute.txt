@@ -1,0 +1,11 @@
+C:\Users\Maharba\Projects\Asky\Asky\bin\Debug\Asky.exe
+C:\Users\Maharba\Projects\Asky\Asky\bin\Debug\Asky.pdb
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\Asky.MainForm.resources
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\Asky.Properties.Resources.resources
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\Asky.QuizPresenter.resources
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\Asky.RegisterForm.resources
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\Asky.exe
+C:\Users\Maharba\Projects\Asky\Asky\obj\x86\Debug\Asky.pdb

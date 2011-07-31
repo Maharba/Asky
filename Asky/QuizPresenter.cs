@@ -13,6 +13,12 @@ namespace Asky
     {
         private readonly Quiz quiz;
 
+        public QuizPresenter()
+        {
+            InitializeComponent();
+            this.quiz = new Quiz();
+        }
+
         public QuizPresenter(Quiz quiz)
         {
             InitializeComponent();
@@ -21,14 +27,21 @@ namespace Asky
 
         public event EventHandler<Asky.EventArgs<byte, string>> QuestionChanged;
 
-        [EditorBrowsable(EditorBrowsableState.Never)]
         public byte NumberQuestion { get; private set; }
-        
-        [EditorBrowsable(EditorBrowsableState.Never)]
+                
         public string Question { get { return lblQuestion.Text; } }
 
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        public List<Answer> Options { get { return quiz.Options; } }
+        [Browsable(true)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
+        public List<Question> Questions
+        {
+            get { return quiz.Questions; } 
+            set
+            {
+                quiz.Questions = value;
+                ShowQuestion(0);
+            }
+        }
 
         [EditorBrowsable(EditorBrowsableState.Never)]
         public override string Text
@@ -48,10 +61,10 @@ namespace Asky
         /// </summary>
         public void NextQuestion()
         {
-            // TODO: CUIDADO!! BUG DETECTADO!! Verificar si el indice es válido en Options. Que devuelva int este método.
+            if (NumberQuestion + 1 >= quiz.Questions.Count) return;
             ShowQuestion(++NumberQuestion);
             if (QuestionChanged != null)
-                QuestionChanged(this, new EventArgs<byte, string>(NumberQuestion, quiz.Questions[NumberQuestion]));
+                QuestionChanged(this, new EventArgs<byte, string>(NumberQuestion, quiz.Questions[NumberQuestion].Content));
         }
 
         /// <summary>
@@ -59,46 +72,49 @@ namespace Asky
         /// </summary>
         public void PreviousQuestion()
         {
-            // TODO: CUIDADO!! BUG DETECTADO!! Verificar si el indice es válido en Options. Que devuelva int este método.
+            if (NumberQuestion - 1 < 0) return;
             ShowQuestion(--NumberQuestion);
             if (QuestionChanged != null)
-                QuestionChanged(this, new EventArgs<byte, string>(NumberQuestion, quiz.Questions[NumberQuestion]));
+                QuestionChanged(this, new EventArgs<byte, string>(NumberQuestion, quiz.Questions[NumberQuestion].Content));
         }
 
         private void ShowQuestion(byte numberQuestion)
         {
             NumberQuestion = numberQuestion;
             // TODO: Optimizar para localización.
-            gbQuestions.Text = string.Format("Pregunta {0}", quiz.Questions[numberQuestion]);
-            lblQuestion.Text = quiz.Questions[numberQuestion];
+            gbQuestions.Text = string.Format("Pregunta {0}", numberQuestion + 1);
+            lblQuestion.Text = quiz.Questions[numberQuestion].Content;
 
-            switch (quiz.Options[numberQuestion].Type)
+            switch (quiz.Questions[numberQuestion].Type)
             {
-                case TypeAnswer.Single:
-                    GenerateVisualOptions(typeof(RadioButton));
+                case TypeQuestion.Single:
+                    GenerateVisualOptions(typeof(RadioButton), numberQuestion);
                     break;
-                case TypeAnswer.Multiple:
-                    GenerateVisualOptions(typeof(CheckBox));
+                case TypeQuestion.Multiple:
+                    GenerateVisualOptions(typeof(CheckBox), numberQuestion);
                     break;
             }
         }
 
-        private void GenerateVisualOptions(Type t)
+        private void GenerateVisualOptions(Type t, byte numberQuestion)
         {
-            tableLayoutAnswersPanel.RowCount = quiz.Options.Count;
-            for (int i = 0; i < quiz.Options.Count; i++)
+            tableLayoutAnswersPanel.Controls.Clear();
+            tableLayoutAnswersPanel.RowCount = quiz.Questions[numberQuestion].Options.Count;
+            for (int i = 0; i < tableLayoutAnswersPanel.RowCount; i++)
             {
                 tableLayoutAnswersPanel.RowStyles.Add(
                     new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent,
-                                                      (float)100 / quiz.Options.Count));
-                if (typeof(RadioButton) == t.GetType())
+                                                      (float)100 / quiz.Questions[numberQuestion].Options.Count));
+                if (t.Name == "RadioButton")
                 {
-                    RadioButton rb = new RadioButton {Text = quiz.Options[i].Content};
+                    RadioButton rb = new RadioButton { Text = quiz.Questions[numberQuestion].Options[i].Content };
+                    tableLayoutAnswersPanel.Controls.Add(rb);
                     tableLayoutAnswersPanel.SetRow(rb, i);
                 }
-                else if (typeof(CheckBox) == t.GetType())
+                else if (t.Name == "CheckBox")
                 {
-                    CheckBox cbx = new CheckBox {Text = quiz.Options[i].Content};
+                    CheckBox cbx = new CheckBox { Text = quiz.Questions[numberQuestion].Options[i].Content };
+                    tableLayoutAnswersPanel.Controls.Add(cbx);
                     tableLayoutAnswersPanel.SetRow(cbx, i);
                 }
             }

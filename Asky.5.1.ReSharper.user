@@ -7,8 +7,51 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Student.cs" caret="554" fromTop="22" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:RegisterForm.Designer.cs" caret="254" fromTop="8" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Professor.cs" caret="1026" fromTop="36" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:IPerson.cs" caret="359" fromTop="14" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/d:Properties/f:Resources.resx" caret="0" fromTop="0" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.Designer.cs" caret="5291" fromTop="29" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:EventArgs.cs" caret="233" fromTop="11" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:RegisterForm.cs" caret="1300" fromTop="39" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="211" fromTop="9" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="1416" fromTop="18" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="358" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="245" fromTop="3" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="1741" fromTop="37" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="1607" fromTop="32" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2458" fromTop="29" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2821" fromTop="28" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3229" fromTop="28" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3469" fromTop="33" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2662" fromTop="22" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="1588" fromTop="26" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="1761" fromTop="26" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1185" fromTop="28" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1085" fromTop="18" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="960" fromTop="20" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:EventArgs.cs" caret="284" fromTop="12" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:EventArgs.cs" caret="197" fromTop="8" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:EventArgs.cs" caret="129" fromTop="5" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1387" fromTop="9" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1688" fromTop="20" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1800" fromTop="27" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2070" fromTop="36" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="647" fromTop="20" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1895" fromTop="17" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1525" fromTop="7" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="479" fromTop="24" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="312" fromTop="15" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="438" fromTop="18" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3818" fromTop="12" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="427" fromTop="17" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3818" fromTop="9" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="1761" fromTop="15" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +64,220 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:Asky.MainForm">
+      <Item value="Hide`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="RegisterForm`0" priority="2" />
+      <Item value="if" priority="10" />
+      <Item value="OK" priority="1" />
+      <Item value="prop" priority="22" />
+      <Item value="string" priority="24" />
+      <Item value="Persona`0" priority="0" />
+      <Item value="IPersona`0" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="System" priority="0" />
+      <Item value="IPerson`0" priority="1" />
+      <Item value="private" priority="8" />
+      <Item value="return" priority="9" />
+      <Item value="mail" priority="1" />
+      <Item value="value" priority="4" />
+      <Item value="this" priority="7" />
+      <Item value="else" priority="5" />
+      <Item value="throw" priority="1" />
+      <Item value="new" priority="15" />
+      <Item value="InvalidCredentialException" priority="0" />
+      <Item value="Student`0" priority="7" />
+      <Item value="student" priority="3" />
+      <Item value="Student" priority="3" />
+      <Item value="FirstName" priority="2" />
+      <Item value="Professor`0" priority="6" />
+      <Item value="propg" priority="1" />
+      <Item value="psr" priority="0" />
+      <Item value="pci" priority="0" />
+      <Item value="psvm" priority="0" />
+      <Item value="public" priority="12" />
+      <Item value="errorProvider1" priority="0" />
+      <Item value="txtProfessorMail" priority="2" />
+      <Item value="txtStudentMail" priority="4" />
+      <Item value="studentMail" priority="1" />
+      <Item value="professorMail" priority="1" />
+      <Item value="txtProfessorSubject" priority="2" />
+      <Item value="RegisterForm" priority="1" />
+      <Item value="rf" priority="3" />
+      <Item value="txtStudentName" priority="0" />
+      <Item value="LastName" priority="2" />
+      <Item value="txtStudentID" priority="0" />
+      <Item value="txtProfessorLastName" priority="1" />
+      <Item value="IFeatureSupport`0" priority="0" />
+      <Item value="st" priority="1" />
+      <Item value="Mail" priority="1" />
+      <Item value="e" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="txtProfessorFirstName" priority="0" />
+      <Item value="Subject" priority="0" />
+      <Item value="pf" priority="0" />
+      <Item value="Application`0" priority="3" />
+      <Item value="professor" priority="2" />
+      <Item value="null" priority="3" />
+      <Item value="Professor" priority="0" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="Error" priority="0" />
+      <Item value="enum" priority="1" />
+      <Item value="TypeAnswer`0" priority="1" />
+      <Item value="Quiz`0" priority="6" />
+      <Item value="FileStream" priority="0" />
+      <Item value="filePath" priority="3" />
+      <Item value="Open" priority="0" />
+      <Item value="BinaryFormatter" priority="0" />
+      <Item value="bf" priority="0" />
+      <Item value="fs" priority="1" />
+      <Item value="qz" priority="0" />
+      <Item value="openFileDialog1" priority="1" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="override" priority="2" />
+      <Item value="byte" priority="5" />
+      <Item value="DateTime`0" priority="1" />
+      <Item value="quiz" priority="13" />
+      <Item value="StringCollection`0" priority="0" />
+      <Item value="void" priority="4" />
+      <Item value="class" priority="2" />
+      <Item value="gbQuestions" priority="0" />
+      <Item value="currentQuestion" priority="3" />
+      <Item value="DesignTimeVisible" priority="2" />
+      <Item value="DesignerAttribute`0" priority="0" />
+      <Item value="DesignTimeVisibleAttribute`0" priority="0" />
+      <Item value="numberQuestion" priority="2" />
+      <Item value="Single" priority="0" />
+      <Item value="RadioButton`0" priority="6" />
+      <Item value="for" priority="1" />
+      <Item value="RadioButton" priority="1" />
+      <Item value="rb" priority="2" />
+      <Item value="t" priority="1" />
+      <Item value="i" priority="0" />
+      <Item value="Multiple" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="GenerateVisualOptions`0" priority="1" />
+      <Item value="typeof" priority="3" />
+      <Item value="CheckBox`0" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="TypeQuestion`0" priority="0" />
+      <Item value="List" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="lblQuestion" priority="1" />
+      <Item value="EditorBrowsable" priority="0" />
+      <Item value="EditorBrowsableState`0" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="EventHandler`0" priority="0" />
+      <Item value="QuestionChanged" priority="2" />
+      <Item value="EventArgs" priority="2" />
+      <Item value="T`0" priority="1" />
+      <Item value="U`0" priority="1" />
+      <Item value="Number" priority="0" />
+      <Item value="Content" priority="0" />
+      <Item value="cont" priority="0" />
+      <Item value="EventArgs&lt;byte,string&gt;" priority="0" />
+      <Item value="NumberQuestion" priority="3" />
+      <Item value="Quiz" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Asky.RegisterForm">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="Close`0" priority="4" />
+      <Item value="GetProfessorData`0" priority="0" />
+      <Item value="GetStudentData`0" priority="0" />
+      <Item value="txtStudentMail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="IsMatch`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Asky.Professor">
+      <Item value="mail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ErrorProvider">
+      <Item value="SetError`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Asky.Student">
+      <Item value="Mail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FormClosingEventArgs">
+      <Item value="Cancel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Exit`0" priority="2" />
+      <Item value="Restart`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter">
+      <Item value="Deserialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+      <Item value="EndsWith`0" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="FileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Asky.Quiz">
+      <Item value="ParseFromFile`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Asky.QuizPresenter">
+      <Item value="quiz" priority="1" />
+      <Item value="actualQuestion" priority="0" />
+      <Item value="NumberQuestion" priority="0" />
+      <Item value="tableLayoutAnswersPanel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Asky.Quiz">
+      <Item value="Question" priority="0" />
+      <Item value="Questions" priority="2" />
+      <Item value="Type" priority="1" />
+      <Item value="Options" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.GroupBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.StringCollection">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TableLayoutPanel">
+      <Item value="RowCount" priority="1" />
+      <Item value="SetRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetType`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Asky.Answer">
+      <Item value="Content" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.EditorBrowsableState">
+      <Item value="Never" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
