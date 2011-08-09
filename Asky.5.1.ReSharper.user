@@ -9,49 +9,42 @@
   <RecentFiles>
     <RecentFiles>
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Student.cs" caret="554" fromTop="22" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Professor.cs" caret="1026" fromTop="36" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:IPerson.cs" caret="359" fromTop="14" />
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/d:Properties/f:Resources.resx" caret="0" fromTop="0" />
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.Designer.cs" caret="6030" fromTop="29" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:EventArgs.cs" caret="233" fromTop="11" />
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:RegisterForm.Designer.cs" caret="1345" fromTop="36" />
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Program.cs" caret="151" fromTop="7" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="438" fromTop="18" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="1527" fromTop="35" />
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:RegisterForm.cs" caret="1860" fromTop="15" />
       <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="686" fromTop="15" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="656" fromTop="0" />
+      <File id="E475E53B-D970-4C60-8564-EC1B902817CA/d:Components/f:Quiz.cs" caret="1257" fromTop="25" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Professor.cs" caret="931" fromTop="30" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Enums/f:TypeQuiz.cs" caret="22" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Enums/f:TypeOptions.cs" caret="22" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Collections/f:QuestionCollection.cs" caret="6844" fromTop="142" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/f:Question.cs" caret="72" fromTop="2" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/f:Answer.cs" caret="96" fromTop="3" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Collections/f:AnswerCollection.cs" caret="4497" fromTop="111" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Models/f:Student.cs" caret="26" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Models/f:Professor.cs" caret="942" fromTop="30" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="359" fromTop="14" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:EventArgs.cs" caret="316" fromTop="14" />
+      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:IPerson.cs" caret="64" fromTop="3" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Interfaces/f:IPerson.cs" caret="527" fromTop="24" />
     </RecentFiles>
     <RecentEdits>
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="438" fromTop="18" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="4287" fromTop="12" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="427" fromTop="17" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="5042" fromTop="15" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="1679" fromTop="28" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="251" fromTop="3" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="459" fromTop="17" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="687" fromTop="25" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1626" fromTop="25" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="5042" fromTop="15" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="4287" fromTop="16" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="656" fromTop="22" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="912" fromTop="14" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="1133" fromTop="22" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="2389" fromTop="31" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="2885" fromTop="35" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2538" fromTop="40" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2960" fromTop="25" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3595" fromTop="37" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3846" fromTop="41" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="4167" fromTop="47" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="5042" fromTop="13" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="5019" fromTop="26" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="3194" fromTop="33" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="2291" fromTop="10" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:QuizPresenter.cs" caret="4287" fromTop="10" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:Quiz.cs" caret="2451" fromTop="35" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="3624" fromTop="42" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="686" fromTop="15" />
-      <File id="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD/f:MainForm.cs" caret="5042" fromTop="15" />
+      <File id="E475E53B-D970-4C60-8564-EC1B902817CA/d:Components/f:Quiz.cs" caret="225" fromTop="4" />
+      <File id="E475E53B-D970-4C60-8564-EC1B902817CA/d:Components/f:Quiz.cs" caret="334" fromTop="11" />
+      <File id="E475E53B-D970-4C60-8564-EC1B902817CA/d:Components/f:Quiz.cs" caret="334" fromTop="11" />
+      <File id="E475E53B-D970-4C60-8564-EC1B902817CA/d:Components/f:Quiz.cs" caret="2253" fromTop="49" />
+      <File id="E475E53B-D970-4C60-8564-EC1B902817CA/d:Components/f:Quiz.cs" caret="1391" fromTop="30" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Interfaces/f:IPerson.cs" caret="32" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Enums/f:TypeQuiz.cs" caret="22" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Enums/f:TypeOptions.cs" caret="22" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Collections/f:QuestionCollection.cs" caret="6844" fromTop="142" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Collections/f:AnswerCollection.cs" caret="4497" fromTop="111" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Models/f:Professor.cs" caret="1048" fromTop="38" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Models/f:Student.cs" caret="26" fromTop="0" />
+      <File id="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB/d:Interfaces/f:IPerson.cs" caret="527" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -71,23 +64,23 @@
     </ItemStatistics>
     <ItemStatistics item="Default">
       <Item value="RegisterForm`0" priority="2" />
-      <Item value="if" priority="10" />
+      <Item value="if" priority="15" />
       <Item value="OK" priority="1" />
-      <Item value="prop" priority="25" />
-      <Item value="string" priority="25" />
+      <Item value="prop" priority="27" />
+      <Item value="string" priority="26" />
       <Item value="Persona`0" priority="0" />
       <Item value="IPersona`0" priority="0" />
       <Item value="using" priority="1" />
       <Item value="System" priority="0" />
       <Item value="IPerson`0" priority="1" />
       <Item value="private" priority="8" />
-      <Item value="return" priority="9" />
+      <Item value="return" priority="14" />
       <Item value="mail" priority="1" />
       <Item value="value" priority="5" />
       <Item value="this" priority="7" />
       <Item value="else" priority="5" />
-      <Item value="throw" priority="1" />
-      <Item value="new" priority="19" />
+      <Item value="throw" priority="2" />
+      <Item value="new" priority="22" />
       <Item value="InvalidCredentialException" priority="0" />
       <Item value="Student`0" priority="7" />
       <Item value="student" priority="3" />
@@ -95,10 +88,10 @@
       <Item value="FirstName" priority="2" />
       <Item value="Professor`0" priority="6" />
       <Item value="propg" priority="1" />
-      <Item value="psr" priority="0" />
+      <Item value="psr" priority="1" />
       <Item value="pci" priority="0" />
-      <Item value="psvm" priority="0" />
-      <Item value="public" priority="12" />
+      <Item value="psvm" priority="1" />
+      <Item value="public" priority="15" />
       <Item value="errorProvider1" priority="0" />
       <Item value="txtProfessorMail" priority="2" />
       <Item value="txtStudentMail" priority="4" />
@@ -138,12 +131,12 @@
       <Item value="openFileDialog1" priority="1" />
       <Item value="DialogResult" priority="0" />
       <Item value="protected" priority="0" />
-      <Item value="override" priority="2" />
-      <Item value="byte" priority="6" />
+      <Item value="override" priority="3" />
+      <Item value="byte" priority="7" />
       <Item value="DateTime`0" priority="1" />
       <Item value="quiz" priority="16" />
       <Item value="StringCollection`0" priority="0" />
-      <Item value="void" priority="4" />
+      <Item value="void" priority="5" />
       <Item value="class" priority="3" />
       <Item value="gbQuestions" priority="0" />
       <Item value="currentQuestion" priority="3" />
@@ -153,11 +146,11 @@
       <Item value="numberQuestion" priority="7" />
       <Item value="Single" priority="0" />
       <Item value="RadioButton`0" priority="6" />
-      <Item value="for" priority="1" />
+      <Item value="for" priority="3" />
       <Item value="RadioButton" priority="1" />
       <Item value="rb" priority="2" />
       <Item value="t" priority="1" />
-      <Item value="i" priority="0" />
+      <Item value="i" priority="1" />
       <Item value="Multiple" priority="0" />
       <Item value="static" priority="0" />
       <Item value="Type`0" priority="0" />
@@ -166,8 +159,8 @@
       <Item value="CheckBox`0" priority="1" />
       <Item value="is" priority="0" />
       <Item value="TypeQuestion`0" priority="1" />
-      <Item value="List" priority="3" />
-      <Item value="int" priority="1" />
+      <Item value="List" priority="4" />
+      <Item value="int" priority="2" />
       <Item value="lblQuestion" priority="1" />
       <Item value="EditorBrowsable" priority="0" />
       <Item value="EditorBrowsableState`0" priority="0" />
@@ -183,22 +176,35 @@
       <Item value="EventArgs&lt;byte,string&gt;" priority="0" />
       <Item value="NumberQuestion" priority="3" />
       <Item value="Quiz" priority="0" />
-      <Item value="Question`0" priority="1" />
-      <Item value="Answer`0" priority="0" />
+      <Item value="Question`0" priority="4" />
+      <Item value="Answer`0" priority="5" />
       <Item value="DesignerSerializationVisibility" priority="1" />
       <Item value="DesignerSerializationVisibility`0" priority="1" />
       <Item value="Editor" priority="0" />
       <Item value="ComponentModel" priority="0" />
       <Item value="quizPresenter1" priority="2" />
-      <Item value="List&lt;Question&gt;" priority="0" />
+      <Item value="List&lt;Question&gt;" priority="1" />
       <Item value="Question" priority="0" />
       <Item value="Answer" priority="2" />
       <Item value="Options" priority="0" />
-      <Item value="List&lt;Answer&gt;" priority="0" />
+      <Item value="List&lt;Answer&gt;" priority="1" />
       <Item value="Type" priority="0" />
       <Item value="ShowQuestion`0" priority="0" />
       <Item value="Browsable" priority="0" />
       <Item value="tableLayoutMainPanel" priority="0" />
+      <Item value="Component`0" priority="0" />
+      <Item value="ICollection`0" priority="0" />
+      <Item value="_question" priority="9" />
+      <Item value="item" priority="2" />
+      <Item value="ArgumentNullException" priority="0" />
+      <Item value="arrayIndex" priority="0" />
+      <Item value="array" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="pcs" priority="0" />
+      <Item value="_options" priority="5" />
+      <Item value="yield return" priority="0" />
+      <Item value="Int16`0" priority="0" />
+      <Item value="AnswerCollection`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Asky.RegisterForm">
       <Item value="ShowDialog`0" priority="1" />
@@ -290,7 +296,11 @@
       <Item value="Name" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
-      <Item value="Count" priority="1" />
+      <Item value="Count" priority="3" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="GetEnumerator`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Asky.Answer">
       <Item value="Content" priority="1" />

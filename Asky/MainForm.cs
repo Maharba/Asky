@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Asky.Properties;
+using Quiz.Base.Collections;
 
 namespace Asky
 {
@@ -16,46 +17,18 @@ namespace Asky
         {
             InitializeComponent();
         }
-
+        
         private Student student;
         private Professor professor;
         private Quiz quiz;
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            
             // this.Hide();
+            
+            quizDocument1 = QuizDocument
 
-            quizPresenter1.Questions = new List<Question>()
-                                           {
-                                               new Question()
-                                                   {
-                                                       Answer = 1, Content = "sdfsdf", Options = new List<Answer>()
-                                                                                                     {
-                                                                                                         new Answer()
-                                                                                                             {
-                                                                                                                 Content = "sdfdfgdfg"
-                                                                                                             },
-                                                                                                             new Answer()
-                                                                                                                 {
-                                                                                                                     Content = "sdfghh"
-                                                                                                                 }
-                                                                                                     }, Type = TypeQuestion.Single
-                                                   },
-                                                   new Question()
-                                                   {
-                                                       Answer = 1, Content = "fgdfg", Options = new List<Answer>()
-                                                                                                     {
-                                                                                                         new Answer()
-                                                                                                             {
-                                                                                                                 Content = "aaaa"
-                                                                                                             },
-                                                                                                             new Answer()
-                                                                                                                 {
-                                                                                                                     Content = "qqqqq"
-                                                                                                                 }
-                                                                                                     }, Type = TypeQuestion.Multiple
-                                                   }
-                                           };
             using (RegisterForm rf = new RegisterForm())
             {
                 if (rf.ShowDialog(this) == DialogResult.OK)

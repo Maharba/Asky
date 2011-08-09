@@ -1,0 +1,11 @@
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\Quiz.Components.QuizDocument.resources
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\Quiz.Controls.QuizPresenter.resources
+C:\Users\Maharba\Projects\Asky\Quiz\bin\Debug\Quiz.dll
+C:\Users\Maharba\Projects\Asky\Quiz\bin\Debug\Quiz.pdb
+C:\Users\Maharba\Projects\Asky\Quiz\bin\Debug\Quiz.Base.dll
+C:\Users\Maharba\Projects\Asky\Quiz\bin\Debug\Quiz.Base.pdb
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\Quiz.dll
+C:\Users\Maharba\Projects\Asky\Quiz\obj\Debug\Quiz.pdb

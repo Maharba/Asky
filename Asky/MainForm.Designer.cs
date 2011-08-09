@@ -46,7 +46,9 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnFinalize = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.quizPresenter1 = new Asky.QuizPresenter();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.quizDocument1 = new Quiz.Components.QuizDocument();
+            this.quizPresenter1 = new Quiz.Controls.QuizPresenter();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -193,11 +195,19 @@
             this.openFileDialog1.Filter = "Cuestionario (.qiz)|*.qiz|Examen (.exm)|*.exm";
             this.openFileDialog1.Title = "Abrir";
             // 
+            // quizDocument1
+            // 
+            this.quizDocument1.ApplicantName = null;
+            this.quizDocument1.ApplierName = null;
+            this.quizDocument1.Questions = null;
+            this.quizDocument1.Type = Quiz.Base.Enums.TypeQuiz.Exam;
+            this.quizDocument1.Unit = ((byte)(0));
+            // 
             // quizPresenter1
             // 
-            this.quizPresenter1.Location = new System.Drawing.Point(12, 27);
+            this.quizPresenter1.Location = new System.Drawing.Point(124, 111);
             this.quizPresenter1.Name = "quizPresenter1";
-            this.quizPresenter1.Size = new System.Drawing.Size(699, 446);
+            this.quizPresenter1.Size = new System.Drawing.Size(386, 289);
             this.quizPresenter1.TabIndex = 6;
             // 
             // MainForm
@@ -243,7 +253,9 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private QuizPresenter quizPresenter1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private global::Quiz.Components.QuizDocument quizDocument1;
+        private global::Quiz.Controls.QuizPresenter quizPresenter1;
     }
 }
 

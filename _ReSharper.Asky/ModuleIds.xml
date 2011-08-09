@@ -1,4 +1,6 @@
 <Modules>
   <Module PersistentId="C1DC578E-B982-4EEA-A494-A2C5B3CAEFDD" ModuleId="Asky" />
-  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="E475E53B-D970-4C60-8564-EC1B902817CA" ModuleId="Quiz" />
+  <Module PersistentId="3D4F75C2-5C6E-4ED2-968F-5BE781AE51BB" ModuleId="Quiz.Base" />
 </Modules>

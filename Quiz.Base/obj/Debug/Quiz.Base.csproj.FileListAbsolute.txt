@@ -1,0 +1,5 @@
+C:\Users\Maharba\Projects\Asky\Quiz.Base\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Maharba\Projects\Asky\Quiz.Base\bin\Debug\Quiz.Base.dll
+C:\Users\Maharba\Projects\Asky\Quiz.Base\bin\Debug\Quiz.Base.pdb
+C:\Users\Maharba\Projects\Asky\Quiz.Base\obj\Debug\Quiz.Base.dll
+C:\Users\Maharba\Projects\Asky\Quiz.Base\obj\Debug\Quiz.Base.pdb
